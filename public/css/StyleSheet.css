@@ -1,0 +1,791 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../assets/images/mountain_background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+   /* INDEX */
+   .index_wrapper{
+    width: 100%;
+    height: auto;
+    background-color:#312c32;
+    margin: 35% auto;
+    border-radius: none;
+    padding: 10px 0;
+}
+.index_imgbox{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.index_icon{
+    width: 80px;
+    margin: 0 auto;
+    color:#fff;
+}
+.index_h3{
+   font-size: 24px;
+   text-align: center; 
+   margin: 10px 20px;
+   padding: 0;
+   color:#fff;
+}
+.index_h5{
+    font-size: 14px;
+    text-align: center;
+    margin:10px 20px;
+    padding: 0;
+    color:#fff;
+}
+.index_container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0;
+}
+.index_btn{
+    width: 130px;
+    height: 44px;
+    background-color:#5eb7e4;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+.index_btn a{
+    text-decoration: none;
+} 
+.register_btn{
+    width: 130px;
+    height: 44px;
+    background-color:#5eb7e4;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    border-radius: 5px;
+}
+.register_btn a{
+    text-decoration: none;
+} 
+.medier_btn{
+    width: 130px;
+    height: 44px;
+    background-color:#5eb7e4;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+.medier_btn a{
+    text-decoration: none;
+}
+.index_btntekst{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    color:#fff;
+}
+
+/* LOGIN */
+.login_wrapper{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.login_container{
+    width: 230px;
+    height: auto;
+    background-color: #312c32;
+    margin: 50% auto;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login_h3{
+    font-size: 24px;
+    text-align: center; 
+    margin: 0;
+    padding: 0;
+    color:#fff;
+}
+.login_input{
+    width: 150px;
+    height: 30px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.login_btn{
+    width: 150px;
+    height: 44px;
+    background-color:#5eb7e4;
+    margin: 10px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: none;
+    color: #fff;
+}
+.login_btn a{
+    color: #fff;
+}
+
+/* HOME */
+.home_wrapper{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.home_container{
+    width: 230px;
+    height: auto;
+    background-color: #312c32;
+    margin: 50% auto;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home_h3{
+    font-size: 24px;
+    text-align: center; 
+    margin: 0;
+    padding: 0;
+    color:#fff;
+}
+.homeknap_container{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+.home{
+    width: 300px;
+    height: auto;
+    margin: 10px auto;
+    padding: 10px 0;
+}
+.home_btn{
+    width: 130px;
+    height: 44px;
+    background-color:#5eb7e4;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+.home_a{
+    list-style-type: none;
+    text-decoration: none;
+    color:#fff;
+    margin: 10px;
+}
+.home_btntekst{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    color:#fff; 
+}
+.home ul{
+    color:#fff;
+}
+/* Register */
+.register_wrapper{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.register_container{
+    width: 200px;
+    height: auto;
+    background-color: #312c32;
+    margin: 35% auto;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.reg_h3{
+    font-size: 24px;
+    text-align: center; 
+    margin: 0;
+    padding: 0;
+    color:#fff;
+}
+.reg_input{
+    width: 150px;
+    height: 30px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.reg_btn{
+    width: 150px;
+    height: 44px;
+    background-color:#5eb7e4;
+    margin: 10px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: none;
+    color: #fff;
+    text-decoration: none;
+}
+.reg_btn a{
+    color: #fff;
+    list-style-type: none;
+}
+
+
+/*** Media Queries ***/
+/* Tablet */
+@media screen and (min-width:720px) {
+
+      /* INDEX */
+.index_wrapper{
+    width: 80%;
+    height: auto;
+    margin: 35% auto;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+.index_imgbox{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.index_icon{
+    width: 80px;
+    margin: 0 auto;
+    color:#fff;
+}
+.index_h3{
+    font-size: 30px;
+    text-align: center; 
+    margin: 10px 20px;
+    padding: 0;
+    color:#fff;
+ }
+ .index_h5{
+     font-size: 18px;
+     text-align: center;
+     margin:10px 20px;
+     padding: 0;
+     color:#fff;
+ }
+.index_container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+}
+.index_btn{
+    width: 130px;
+    height: 44px;
+    background-color:#5eb7e4;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+.index_btn a{
+    text-decoration: none;
+} 
+.register_btn{
+    width: 130px;
+    height: 44px;
+    background-color:#5eb7e4;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    border-radius: 5px;
+}
+.register_btn a{
+    text-decoration: none;
+} 
+.medier_btn{
+    width: 130px;
+    height: 44px;
+    background-color:#5eb7e4;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+.medier_btn a{
+    text-decoration: none;
+}
+.index_btntekst{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    color:#fff;
+    text-align: center; 
+}
+
+/* LOGIN */
+.login_wrapper{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.login_container{
+    width: 300px;
+    height: auto;
+    background-color: #312c32;
+    margin: 50% auto;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login_h3{
+    font-size: 30px;
+    text-align: center; 
+    margin: 0;
+    padding: 0;
+    color:#fff;
+}
+.login_input{
+    width: 150px;
+    height: 30px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.login_btn{
+    width: 150px;
+    height: 44px;
+    background-color:#5eb7e4;
+    margin: 10px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: none;
+    color: #fff;
+}
+.login_btn a{
+    color: #fff;
+}
+
+/* HOME */
+.home_wrapper{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.home_container{
+    width: 300px;
+    height: auto;
+    background-color: #312c32;
+    margin: 50% auto;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home_h3{
+    font-size: 30px;
+    text-align: center; 
+    margin: 0;
+    padding: 0;
+    color:#fff;
+}
+.homeknap_container{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+.home{
+    width: 300px;
+    height: auto;
+    margin: 10px auto;
+    padding: 10px 0;
+}
+.home_btn{
+    width: 130px;
+    height: 44px;
+    background-color:#5eb7e4;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+.home_a{
+    list-style-type: none;
+    text-decoration: none;
+    color:#fff;
+    margin: 10px;
+}
+.home_btntekst{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    color:#fff; 
+}
+.home ul{
+    color:#fff;
+}
+/* Register */
+.register_wrapper{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.register_container{
+    width: 300px;
+    height: auto;
+    background-color: #312c32;
+    margin: 35% auto;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.reg_h3{
+    font-size: 30px;
+    text-align: center; 
+    margin: 0;
+    padding: 0;
+    color:#fff;
+}
+.reg_input{
+    width: 150px;
+    height: 30px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.reg_btn{
+    width: 150px;
+    height: 44px;
+    background-color:#5eb7e4;
+    margin: 10px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: none;
+    color: #fff;
+    text-decoration: none;
+}
+.reg_btn a{
+    color: #fff;
+    list-style-type: none;
+}
+
+}
+
+
+/* Pc */
+@media screen and (min-width:1280px) {
+
+    /* INDEX */
+.index_wrapper{
+    width: 50%;
+    height: auto;
+    margin: 10% auto;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+.index_imgbox{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.index_icon{
+    width: 80px;
+    margin: 0 auto;
+    color:#fff;
+}
+.index_h3{
+    font-size: 30px;
+    text-align: center; 
+    margin: 10px 20px;
+    padding: 0;
+    color:#fff;
+ }
+ .index_h5{
+     font-size: 18px;
+     text-align: center;
+     margin:10px 20px;
+     padding: 0;
+     color:#fff;
+ }
+.index_container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+}
+.index_btn{
+    width: 130px;
+    height: 44px;
+    background-color:#5eb7e4;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+.index_btn a{
+    text-decoration: none;
+} 
+.register_btn{
+    width: 130px;
+    height: 44px;
+    background-color:#5eb7e4;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+.register_btn a{
+    text-decoration: none;
+} 
+.medier_btn{
+    width: 130px;
+    height: 44px;
+    background-color:#5eb7e4;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+.medier_btn a{
+    text-decoration: none;
+}
+.index_btntekst{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    color:#fff; 
+}
+
+/* LOGIN */
+.login_wrapper{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.login_container{
+    width: 300px;
+    height: auto;
+    background-color: #312c32;
+    margin: 20% auto;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login_h3{
+    font-size: 30px;
+    text-align: center; 
+    margin: 0;
+    padding: 0;
+    color:#fff;
+}
+.login_input{
+    width: 150px;
+    height: 30px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.login_btn{
+    width: 150px;
+    height: 44px;
+    background-color:#5eb7e4;
+    margin: 10px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: none;
+    color: #fff;
+}
+.login_btn a{
+    color: #fff;
+}
+
+/* HOME */
+.home_wrapper{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.home_container{
+    width: 300px;
+    height: auto;
+    background-color: #312c32;
+    margin: 20% auto;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home_h3{
+    font-size: 30px;
+    text-align: center; 
+    margin: 0;
+    padding: 0;
+    color:#fff;
+}
+.homeknap_container{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+.home{
+    width: 300px;
+    height: auto;
+    margin: 10px auto;
+    padding: 10px 0;
+}
+.home_btn{
+    width: 130px;
+    height: 44px;
+    background-color:#5eb7e4;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+.home_a{
+    list-style-type: none;
+    text-decoration: none;
+    color:#fff;
+    margin: 10px;
+}
+.home_btntekst{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    color:#fff; 
+}
+.home ul{
+    color:#fff;
+}
+
+/* Register */
+.register_wrapper{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.register_container{
+    width: 300px;
+    height: auto;
+    background-color: #312c32;
+    margin: 10% auto;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.reg_h3{
+    font-size: 30px;
+    text-align: center; 
+    margin: 0;
+    padding: 0;
+    color:#fff;
+}
+.reg_input{
+    width: 150px;
+    height: 30px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.reg_btn{
+    width: 150px;
+    height: 44px;
+    background-color:#5eb7e4;
+    margin: 10px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: none;
+    color: #fff;
+    text-decoration: none;
+}
+.reg_btn a{
+    color: #fff;
+    list-style-type: none;
+}
+
+}
